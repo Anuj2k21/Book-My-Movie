@@ -1,0 +1,44 @@
+#movies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+    padding: 10px;
+}
+#movies >div{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: pink;
+    height: 400px;
+
+}
+img{
+    border-radius: 10px;
+    height: 80%;
+    width: 100%;
+}
+button{
+    color: white;
+    background-color: rgb(233, 32, 65);
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+}
+button,p{
+    margin: 2px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#search{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px 35%;
+    padding-left: 10px;
+}

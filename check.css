@@ -1,0 +1,64 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#movie >div{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: pink;
+    display: flex;
+    height: 400px;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+#movie img{
+    border-radius: 10px;
+    height: 80%;
+    width: 100%;
+    flex:6;
+}
+p{
+    margin: 20px 2px;
+    flex:1;
+    font-size: 30px;
+}
+#user-detail{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(128, 188, 168);
+    /* height: 50px; */
+}
+input{
+    height: 30px;
+    width: 15%;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+button{
+    color: white;
+    background-color: rgb(233, 32, 65);
+    padding: 5px 20px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    border: none;
+}
+/* #search{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px 35%;
+    padding-left: 10px;
+} */
